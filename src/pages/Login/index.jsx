@@ -59,6 +59,12 @@ const UserLogin = () => {
         errors={formik.errors}
         isLoading={loading}
       />
+      <p>Login: teste@email.com</p>
+      <p>Senha: 123</p>
+      <p>
+        Não coloquei cadastro pra esta entidade porque achei que não fazia
+        sentido
+      </p>
     </Page>
   );
 };
